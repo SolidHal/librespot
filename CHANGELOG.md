@@ -30,6 +30,7 @@ We appreciate all your testing and contributions to the repository:
 https://github.com/librespot-org/librespot
 
 ### Changed
+- [playback] `pipe`: close & reopen file between songs when --disable-gapless is set
 
 - [all] Assertions were changed into `Result` or removed (breaking)
 - [all] Purge use of `unwrap`, `expect` and return `Result` (breaking)
